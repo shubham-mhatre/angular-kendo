@@ -1,0 +1,9 @@
+<p>kendo-grid works!</p>
+
+<kendo-grid [data]="gridData" [kendoGridBinding]="gridData"
+    [pageSize]="5" [pageable]="{ pageSizes: [5,10,15,20]}"  [height]="300"
+    [columnMenu]="{ filter: true }">
+    <kendo-grid-column field="productid" title="ID"> </kendo-grid-column>
+    <kendo-grid-column field="productName" title="Name"> </kendo-grid-column>
+    <kendo-grid-column field="productPrice" title="Price"> </kendo-grid-column>
+</kendo-grid>

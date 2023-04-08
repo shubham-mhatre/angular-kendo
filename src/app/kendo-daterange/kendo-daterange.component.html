@@ -1,0 +1,20 @@
+
+<kendo-daterange (click)="changedd($event)">
+    <kendo-floatinglabel text="Start">
+      <kendo-dateinput #startin
+        kendoDateRangeStartInput [readonly]="true"
+        [(value)]=  "range.start"
+      ></kendo-dateinput>
+    </kendo-floatinglabel>
+    <kendo-floatinglabel text="End">
+      <kendo-dateinput [readonly]="true"
+        kendoDateRangeEndInput  #endin
+        [(value)]="range.end"
+      ></kendo-dateinput>
+    </kendo-floatinglabel>
+  </kendo-daterange>
+
+  <div class="example-config">Selected range: {{ range | json }}</div>
+
+  <div class="example-config">{{startin.value}} | {{endin.value}}</div>
+  

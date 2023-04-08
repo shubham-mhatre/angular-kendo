@@ -1,0 +1,13 @@
+<div>
+    <kendo-multiselect class="multiselectCls" [data]="colorListmulti" 
+    [(ngModel)]="selectedValuemulti" 
+    placeholder="Please Select"
+    [textField]="'text'"
+    [valueField]="'value'"> 
+    </kendo-multiselect>
+</div>
+
+<div class="example-config">
+    <p> Current value: {{ selectedValuemulti | json }} </p>
+</div>
+

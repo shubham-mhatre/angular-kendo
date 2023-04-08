@@ -1,0 +1,18 @@
+
+<div class="row col-md-12">
+    <div class="col-md-6">
+        <kendo-dropdownlist class="dropdowncls" [data]="colorList"
+        [(ngModel)]="selectedValue"
+        placeholder="Select an employee"
+        value="selectedValue"
+        textField="text"
+        valueField="value"> 
+        </kendo-dropdownlist>
+    </div>
+    <div class="example-config col-md-6">
+        <p>Current value: using ngModel {{ selectedValue | json }} </p>
+    </div>
+</div>
+
+
+

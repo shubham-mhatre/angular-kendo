@@ -1,0 +1,13 @@
+
+<button kendoButton (click)="open()">Open window</button>
+
+<kendo-window title="Title Demo" *ngIf="opened" (close)="close()"
+    [minWidth]="250" [width]="450">
+    <div>
+        <h3>Inside kendo window</h3>
+    </div>
+    <div>
+        <kendo-textbox placeholder="Input here"  type="text"></kendo-textbox>
+    </div>
+    
+</kendo-window>
