@@ -25,3 +25,13 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+kendo textbox, kendo dropdown, kendo multi-select, kendo button below:
+
+![image](https://user-images.githubusercontent.com/55918816/230723677-8e5c0e95-6b9b-4969-bd40-031fd7159f37.png)
+
+kendo datepicker, kendo window, kendo date range picker, kendo window below:
+
+![image](https://user-images.githubusercontent.com/55918816/230723724-b4d1bf8e-e0a1-41d9-94aa-9c24ac94ec01.png)
+
